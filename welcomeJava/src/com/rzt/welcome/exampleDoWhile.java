@@ -6,11 +6,14 @@ package com.rzt.welcome;
 
 // Example for "DoWhile loop"
 public class exampleDoWhile {
-    public static void main(String[] args) {
-        int x = 10;
-        do {
-            System.out.println("DO" + x);
-            x--;
-        } while (x > 5);
-    }
+
+	public static void main( String[] args )
+	{
+		int x = 10;
+		do
+		{
+			System.out.println("DO" + x);
+			x--;
+		} while( x > 5 );
+	}
 }

@@ -6,11 +6,13 @@ package com.rzt.welcome;
 
 // Example for "While loop"
 public class exampleWhile {
-    public static void main(String[] args) {
-        int x = 0;
-        while (x <= 10) {
-            System.out.println("x - " + x);
-            x++;
-        }
-    }
+	public static void main( String[] args )
+	{
+		int x = 0;
+		while( x <= 10 )
+		{
+			System.out.println("x - " + x);
+			x++;
+		}
+	}
 }
